@@ -92,7 +92,7 @@ h1{
     font-style: Space Grotesk;
     color: #0F298B;
     display: block;
-    padding: 10px;
+    
 }
 .image-1{
     padding: 0;
@@ -112,4 +112,5 @@ h1{
 }
 h6{
     font-size: 20px;
+    font-weight: bold;
 }
