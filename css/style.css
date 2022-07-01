@@ -14,7 +14,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FAFAFA;
+    background-color: #e7e7e7;
+    min-height: 70px;
 }   
 .nav-links{
     display: flex;
@@ -27,16 +28,30 @@ nav{
     position: relative;right: 800px;
 }
 .button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #FAFAFA;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #2549D3;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
 
-    background-color:#2549D3;
-    position: absolute;
-    top: 50;
-    color: #fff;
-    border:none; 
-    border-radius:30px; 
-    padding: 20px;
-    min-height:1px; 
-    min-width: 120px;
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 .button-1{
     position: relative;
@@ -60,4 +75,23 @@ ul{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+body{
+    background-color: #FAFAFA;
+}
+h3{
+    align-content: center;
+    font-style: Space Grotesk;
+    color: #0F298B;
+    
+}
+h1{
+    font-style: Space Grotesk;
+    color: #0F298B;
+    display: block;
+    padding: 10px;
+}
+.image-1{
+    
+    
 }
