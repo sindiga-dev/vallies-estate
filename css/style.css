@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 1px;
+    padding: 5px;
     box-sizing: border-box;
 }
 .heading{
@@ -58,10 +58,12 @@ nav{
 }
 ol{
     list-style: none;
+    
 }
 ul{
     list-style-type: none;
-    display: inline-block;
+    display: flex;
+
     
 }
 .description-1{
@@ -92,6 +94,8 @@ h1{
     font-style: Space Grotesk;
     color: #0F298B;
     display: block;
+    font-weight: 700;
+    font-size: 70px;
     
 }
 .image-1{
@@ -106,6 +110,7 @@ h1{
     background-color: #2549D3;
     color: #e7e7e7;
     display: flex;
+    
 }
 .bottom-1{
     display: flex;
