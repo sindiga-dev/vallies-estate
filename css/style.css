@@ -41,3 +41,23 @@ nav{
 .button-1{
     position: relative;
 }
+ul{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.description-1{
+    box-sizing: border-box;
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choose{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
