@@ -56,6 +56,9 @@ nav{
 .button-1{
     position: relative;
 }
+ol{
+    list-style: none;
+}
 ul{
     list-style-type: none;
     display: inline-block;
@@ -95,4 +98,18 @@ h1{
     padding: 0;
     border: 0;
     
+}
+.featured{
+    display: flex;
+}
+.bottom{
+    background-color: #2549D3;
+    color: #e7e7e7;
+    display: flex;
+}
+.bottom-1{
+    display: flex;
+}
+h6{
+    font-size: 20px;
 }
