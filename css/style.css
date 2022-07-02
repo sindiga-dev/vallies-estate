@@ -2,10 +2,12 @@
     margin: 1px;
     padding: 8px;
     box-sizing: border-box;
+
 }
 .heading{
     color: black;
     letter-spacing: 0px;
+    font-family: sans-serif;
     font-style: Space Grotesk;
     font-size: 20px;
     position: relative;right: 200px;
@@ -77,6 +79,7 @@ ul{
 }
 body{
     background-color: #FAFAFA;
+    
 }
 h3{
     align-content: center;
@@ -100,8 +103,11 @@ h1{
 .featured{
     display: flex;
 }
+.mid{
+    padding: 50px;
+}
 .bottom{
-    background-color: #2549D3;
+    background-color: #0F298B;
     color: #e7e7e7;
     display: flex;
     
@@ -109,7 +115,7 @@ h1{
 .bottom-1{
     display: flex;
     position: relative;
-    margin-left: 230px;
+    margin-left: 200px;
     padding: 20px;
 }
 h6{
@@ -158,4 +164,23 @@ h6{
 .make-official{
     padding: 5px;
     background-color: white;
+}
+.home_heading{
+    position: relative;
+    margin-right: 100px;
+}
+.the-palace{
+    padding: 15px;
+    background-color: white;
+    font-size: x-small;
+}
+.rory{
+    padding: 15px;
+    background-color: white;
+    font-size: x-small;
+}
+.rexona{
+    padding: 15px;
+    background-color: white;
+    font-size: x-small;
 }
