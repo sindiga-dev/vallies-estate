@@ -1,6 +1,6 @@
 *{
     margin: 1px;
-    padding: 5px;
+    padding: 8px;
     box-sizing: border-box;
 }
 .heading{
@@ -24,16 +24,15 @@ nav{
     font-size: 15px;
     position: relative;left: 200px;
 }
-.home_heading{
-    position: relative;right: 800px;
-}
+
+
 .button{
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
-    color: #FAFAFA;
+    color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: #2549D3;
@@ -45,14 +44,6 @@ nav{
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-.styled:hover {
-    background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
 .button-1{
     position: relative;
 }
@@ -114,8 +105,54 @@ h1{
 }
 .bottom-1{
     display: flex;
+    position: relative;
+    margin-left: 230px;
+    padding: 20px;
 }
 h6{
     font-size: 20px;
     font-weight: bold;
+}
+.alex{
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    margin-left: 200px;
+    
+    }    
+
+.alex-3{
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    margin-left: 25px;
+    
+}
+.alex-4{
+    padding: 20px;
+    background-color: white;
+    margin-left:20px;
+}
+.featured-properties{
+    text-align: center;
+    padding: 50px;
+}
+.png{
+    padding: 50px;
+}
+.esteemed-customers{
+    text-align: center;
+    padding: 50px;
+}
+.find-home{
+    padding: 20px;
+    background-color: white;
+}
+.makepayments{
+    height: 200;
+    background-color: white;
+}
+.make-official{
+    padding: 5px;
+    background-color: white;
 }
