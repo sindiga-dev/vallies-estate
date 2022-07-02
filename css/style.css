@@ -47,6 +47,9 @@ nav{
 .button-1{
     position: relative;
 }
+.it-works{
+    text-align: center;
+}
 ol{
     list-style: none;
     
