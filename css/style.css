@@ -1,34 +1,39 @@
-*{
+* {
     margin: 1px;
     padding: 8px;
     box-sizing: border-box;
 
 }
-.heading{
+
+.heading {
     color: black;
     letter-spacing: 0px;
     font-family: sans-serif;
     font-style: Space Grotesk;
     font-size: 20px;
-    position: relative;right: 200px;
-} 
-nav{
+    position: relative;
+    right: 200px;
+}
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #e7e7e7;
     min-height: 70px;
-}   
-.nav-links{
+}
+
+.nav-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
-    position: relative;left: 200px;
+    position: relative;
+    left: 200px;
 }
 
 
-.button{
+.button {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -39,148 +44,179 @@ nav{
     border-radius: 10px;
     background-color: #2549D3;
     background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-.button-1{
+.button-1 {
     position: relative;
 }
-.it-works{
+
+.it-works {
     text-align: center;
 }
-ol{
+
+ol {
     list-style: none;
-    
+
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
 
-    
+
 }
-.description-1{
+
+.description-1 {
     box-sizing: border-box;
-  
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.choose{
+
+.choose {
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-body{
+
+body {
     background-color: #FAFAFA;
-    
+
 }
-h3{
+
+h3 {
     align-content: center;
     font-style: Space Grotesk;
     color: #0F298B;
-    
+
 }
-h1{
+
+h1 {
     font-style: Space Grotesk;
     color: #0F298B;
     display: block;
     font-weight: 700;
     font-size: 70px;
-    
+
 }
-.image-1{
+
+.image-1 {
     padding: 0;
     border: 0;
-    
+
 }
-.featured{
+
+.featured {
     display: flex;
 }
-.mid{
+
+.mid {
     padding: 50px;
 }
-.bottom{
+
+.bottom {
     background-color: #0F298B;
     color: #e7e7e7;
     display: flex;
-    
+
 }
-.bottom-1{
+
+.bottom-1 {
     display: flex;
     position: relative;
     margin-left: 200px;
     padding: 20px;
 }
-h6{
+
+h6 {
     font-size: 20px;
     font-weight: bold;
 }
-.alex{
+
+.alex {
     padding: 5px;
     background-color: white;
     position: relative;
     margin-left: 200px;
-    
-    }    
 
-.alex-3{
+}
+
+.alex-3 {
     padding: 5px;
     background-color: white;
     position: relative;
     margin-left: 25px;
-    
+
+
 }
-.alex-4{
+
+.alex-4 {
     padding: 20px;
     background-color: white;
-    margin-left:20px;
+    margin-left: 20px;
 }
-.featured-properties{
+
+.featured-properties {
     text-align: center;
     padding: 50px;
 }
-.png{
+
+.png {
     padding: 50px;
 }
-.esteemed-customers{
+
+.esteemed-customers {
     text-align: center;
     padding: 50px;
 }
-.find-home{
+
+.find-home {
     padding: 20px;
     background-color: white;
 }
-.makepayments{
+
+.makepayments {
     height: 200;
     background-color: white;
 }
-.make-official{
+
+.make-official {
     padding: 5px;
     background-color: white;
+
 }
-.home_heading{
+
+.home_heading {
     position: relative;
     margin-right: 100px;
 }
-.the-palace{
+
+.the-palace {
     padding: 15px;
     background-color: white;
     font-size: x-small;
 }
-.rory{
+
+.rory {
     padding: 15px;
     background-color: white;
     font-size: x-small;
 }
-.rexona{
+
+.rexona {
     padding: 15px;
     background-color: white;
     font-size: x-small;
+}
+main{
+    justify-content: space-around;
 }
